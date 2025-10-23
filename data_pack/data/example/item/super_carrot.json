@@ -1,0 +1,47 @@
+{
+  "base": {
+    "translation_key": "item.example.super_carrot",
+    "rarity": "uncommon",
+    "tooltip": [
+      {
+        "translate": "item.example.super_carrot.description",
+        "color": "#D4AF37"
+      }
+    ]
+  },
+  "components": {
+    "minecraft:compostable": {
+      "level_increase_chance": 0.65
+    },
+    "minecraft:consumable": {},
+    "minecraft:food": {
+      "nutrition": 6,
+      "saturation": 3.6,
+      "effects": [
+        {
+          "effect": {
+            "id": "minecraft:night_vision",
+            "duration": 300
+          }
+        }
+      ]
+    },
+    "minecraft:stackable": 16,
+    "minecraft:use_animation": "eat",
+    "minecraft:useable": {
+      "ticks": 32
+    }
+  },
+  "events": {
+    "minecraft:eat_item": {
+      "action": {
+        "type": "minecraft:run_function",
+        "function": "example:eat_super_carrot",
+        "context": {
+          "entity": "this",
+          "position": "this"
+        }
+      }
+    }
+  }
+}

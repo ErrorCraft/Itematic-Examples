@@ -1,0 +1,32 @@
+{
+  "base": {
+    "translation_key": "item.example.wool_chestplate"
+  },
+  "components": {
+    "minecraft:armor": {
+      "material": "example:wool"
+    },
+    "minecraft:damageable": {
+      "durability": 100
+    },
+    "minecraft:dispensable": {
+      "behavior": "minecraft:equip_entity"
+    },
+    "minecraft:enchantable": {
+      "enchantability": 15,
+      "enchantments": "minecraft:chestplate_enchanting"
+    },
+    "minecraft:equipment": {
+      "equip_sound": "minecraft:item.armor.equip_leather",
+      "slot": "chest",
+      "swappable": true
+    },
+    "minecraft:forgeable": {
+      "enchantments": "minecraft:chestplate_forging"
+    },
+    "minecraft:repairable": {
+      "items": "example:repairs_wool_armor"
+    },
+    "minecraft:stackable": 1
+  }
+}

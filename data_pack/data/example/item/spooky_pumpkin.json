@@ -1,0 +1,45 @@
+{
+  "base": {
+    "translation_key": "item.example.spooky_pumpkin"
+  },
+  "components": {
+    "minecraft:block": {
+      "block": "minecraft:jack_o_lantern"
+    },
+    "minecraft:stackable": 64
+  },
+  "events": {
+    "minecraft:placed_block": {
+      "action": [
+        {
+          "action": {
+            "type": "minecraft:spawn_entity",
+            "position": "target",
+            "entity": {
+              "type": "minecraft:bat"
+            }
+          }
+        },
+        {
+          "action": {
+            "type": "minecraft:spawn_entity",
+            "position": "target",
+            "entity": {
+              "type": "minecraft:bat"
+            }
+          }
+        },
+        {
+          "action": {
+            "type": "minecraft:play_sound",
+            "position": "target",
+            "sound": "minecraft:entity.witch.celebrate",
+            "category": "block",
+            "volume": 1,
+            "pitch": 2
+          }
+        }
+      ]
+    }
+  }
+}

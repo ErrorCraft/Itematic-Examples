@@ -1,0 +1,10 @@
+{
+  "item.example.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.example.blazing_coal": "Blazing Coal",
+  "item.example.sparkling_stick": "Sparkling Stick",
+  "item.example.spooky_pumpkin": "Spooky Pumpkin",
+  "item.example.super_carrot": "Super Carrot",
+  "item.example.super_carrot.description": "They say carrots are good for your eyes",
+  "item.example.super_carrot.message": "Om nom nom nom...",
+  "item.example.wool_chestplate": "Wool Chestplate"
+}

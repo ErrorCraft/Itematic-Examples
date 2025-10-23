@@ -1,0 +1,12 @@
+{
+  "asset_id": "example:wool",
+  "defense": {
+    "body": 3,
+    "boots": 1,
+    "chestplate": 3,
+    "helmet": 1,
+    "leggings": 2
+  },
+  "knockback_resistance": 0.0,
+  "toughness": 0.0
+}

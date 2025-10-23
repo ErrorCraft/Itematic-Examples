@@ -1,0 +1,11 @@
+{
+  "base": {
+    "translation_key": "item.example.blazing_coal"
+  },
+  "components": {
+    "minecraft:fuel": {
+      "ticks": 4800
+    },
+    "minecraft:stackable": 64
+  }
+}

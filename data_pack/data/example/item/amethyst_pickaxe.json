@@ -1,0 +1,39 @@
+{
+  "base": {
+    "translation_key": "item.example.amethyst_pickaxe"
+  },
+  "components": {
+    "minecraft:damageable": {
+      "durability": 200
+    },
+    "minecraft:enchantable": {
+      "enchantability": 18,
+      "enchantments": "minecraft:pickaxe_enchanting"
+    },
+    "minecraft:forgeable": {
+      "enchantments": "minecraft:pickaxe_forging"
+    },
+    "minecraft:repairable": {
+      "items": "example:repairs_amethyst_tool"
+    },
+    "minecraft:stackable": 1,
+    "minecraft:tool": {
+      "rules": [
+        {
+          "blocks": "#example:incorrect_for_amethyst_tool",
+          "correct_for_drops": false
+        },
+        {
+          "blocks": "#minecraft:mineable/pickaxe",
+          "correct_for_drops": true,
+          "speed": 9.0
+        }
+      ]
+    },
+    "minecraft:weapon": {
+      "attack_damage": 4.0,
+      "attack_speed": -2.8,
+      "damage_per_hit": 2
+    }
+  }
+}

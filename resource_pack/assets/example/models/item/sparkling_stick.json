@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "example:item/sparkling_stick",
+    "layer1": "example:item/sparkling_stick_light"
+  }
+}
