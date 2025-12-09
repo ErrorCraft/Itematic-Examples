@@ -27,9 +27,9 @@
       ]
     },
     "minecraft:stackable": 16,
-    "minecraft:use_animation": "eat",
     "minecraft:useable": {
-      "ticks": 32
+      "ticks": 32,
+      "animation": "eat"
     }
   },
   "events": {
